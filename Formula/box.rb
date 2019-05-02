@@ -1,8 +1,8 @@
 class Box < Formula
   desc "📦🚀 Fast, zero config application bundler with PHARs"
   homepage "https://github.com/humbug/box"
-  url "https://github.com/humbug/box/releases/download/3.0.0/box.phar"
-  sha256 "397f012cae0e7124cc2f949daa45cef594bfe2784c700fe33724dea43ce89777"
+  url "https://github.com/humbug/box/releases/download/3.7.0/box.phar"
+  sha256 "57daab20d12c9eeec2cf244b0f1966327de369a66d2f59ed3bda6a3f5e9f05a9"
 
   bottle :unneeded
 
