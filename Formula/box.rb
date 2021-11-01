@@ -4,8 +4,6 @@ class Box < Formula
   url "https://github.com/box-project/box/releases/download/3.13.0/box.phar"
   sha256 "b438b65fee5d633ee7d322086bebcea0910079e53c1f2dccb6f449f9fd3fa2e2"
 
-  bottle :unneeded
-
   depends_on "php" if MacOS.version <= :el_capitan
 
   def install
