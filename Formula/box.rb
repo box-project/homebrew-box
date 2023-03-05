@@ -1,8 +1,8 @@
 class Box < Formula
   desc "📦🚀 Fast, zero config application bundler with PHARs"
   homepage "https://github.com/box-project/box"
-  url "https://github.com/box-project/box/releases/download/4.2.0/box.phar"
-  sha256 "f693e1a85abdb7730a23fcbaffb882601f1d75616b69f195715fe4f84c5bf8a4"
+  url "https://github.com/box-project/box/releases/download/4.3.7/box.phar"
+  sha256 "b50222cff9ec2e42876a3c2319880eb95e6a0f900b7098fbea03cc6ecb1c7617"
 
   depends_on "php" if MacOS.version <= :el_capitan
 
