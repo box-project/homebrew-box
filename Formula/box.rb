@@ -4,7 +4,7 @@ class Box < Formula
   url "https://github.com/box-project/box/releases/download/4.6.1/box.phar"
   sha256 "8d12a7d69a5003a80bd603ea95a8f3dcea30b9a2ad84cd7cb15b8193929def9e"
 
-  depends_on "php" if MacOS.version <= :el_capitan
+  depends_on "php"
 
   def install
     bin.install "box.phar" => "box"
